@@ -17,4 +17,4 @@ print("Path Size(bytes) Percent")
 print("-----------------------------------------------------------------------")
 for f in file_list:
     print(f[0], f[1], str(round(f[1]/fileSize*100, 2)) + "%")
-print("Here is the total size of the directory: " + str(fileSize) + " MB")
+print("Here is the total size of the directory: " + str(fileSize) + " bytes")
