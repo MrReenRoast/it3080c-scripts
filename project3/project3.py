@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 quitApp = "y"
 #ask user for the path
-print('What is the path you want to look up? (Type n to close)')
+print('What is the directory you want to look up? (Type n to close)')
 pathName = input()
 while quitApp != "n":
     if pathName == "n":
@@ -44,7 +44,7 @@ while quitApp != "n":
     if quitApp == "n":
         break
     elif quitApp == "y":
-        print('What is the path you want to look up? (Type n to close)')
+        print('What is the directory you want to look up? (Type n to close)')
         pathName = input()
     else:
         print("That is not a valid input. Please only use y or n")
