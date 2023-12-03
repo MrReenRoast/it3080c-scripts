@@ -35,6 +35,7 @@ while quitApp != "n":
         print(f[0], f[1], str(round(f[1]/fileSize*100, 2)) + "%")
         nameArray.append(f[0])
         sizeArray.append(f[1])
+    #plotting the sizes and paths of each file and plotting them onto the pie chart, then showing the pie chart.
     plt.pie(sizeArray, labels = nameArray)
     plt.show()
     print("Here is the total size of the directory: " + str(fileSize/1024**3) + " GB")
