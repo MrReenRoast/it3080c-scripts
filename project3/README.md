@@ -3,7 +3,7 @@
 
 This Python script allows you to view a directory and view each file within the directory, the file's size, and the percentage it takes up within the directory. After doing so, it also gives you a pie chart of the space taken up by each file in a more visual format. You will need to use matplotlib in order to run it, and you can install it with pip by using
 
-```python
+```
 pip install matplotlib
 ```
 
